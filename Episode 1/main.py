@@ -1,3 +1,4 @@
+#import libraries
 import requests
 import telegram
 import json
@@ -9,6 +10,7 @@ bot_token = 'xxxxx:xxxxxxxx'
 #get your user id via t.me/myidbot - command is /getid
 user_id = 'xxxxx'
 
+#initialize bot
 bot = telegram.Bot(token=bot_token)
 
 while True:
